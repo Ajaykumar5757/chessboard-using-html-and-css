@@ -1,0 +1,23 @@
+body{
+    padding: 5px 200px;
+    margin: 5px 200px;
+}
+
+table,tr,td{
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 40px;
+    margin: 40px;
+}
+
+.odd td:nth-child(even){
+    background-color: black;
+}
+
+.even td:nth-child(odd){
+    background-color: black;
+}
+
+
+
+
